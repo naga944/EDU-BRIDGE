@@ -1,121 +1,129 @@
-# EduBridge - Engineering to MNC Bridge
+**EDU-BRIDGE**
+AI-Powered Career & Skill Recommendation Platform
 
-A comprehensive platform connecting engineering students with MNC opportunities through AI-powered tools and resources.
+EDU-BRIDGE is an AI-driven web/mobile platform designed to bridge the gap between student skills and real-time MNC technologies & hiring trends.
+The platform enhances learning, boosts placement readiness, and provides personalized career guidance using AI and data-driven insights.
 
-## Features
+**Problem Statement**
 
-- **Dashboard**: Overview of your progress and activities
-- **Tech Accelerator**: Company-specific fit analysis
-- **Scholar (IIT/NIT)**: Internship opportunity matching
-- **Smart Timetable**: AI-generated study schedules
-- **AI Mentor**: Educational assistant chatbot
-- **Industry Lab Guide**: Step-by-step lab experiment workflows
-- **Notes Converter**: Convert content to structured revision notes
-- **Skill Gap Analysis**: Analyze resume against target roles
-- **Project Generator**: Generate final year project ideas
-- **Mock Interview**: Practice with MCQ quizzes
-- **Peer Match**: Connect with like-minded peers
-- **MNC Trends**: Latest technology trends in MNCs
-- **Parent Portal**: Generate progress reports for parents
+Students often face:
 
-## Setup Instructions
+- Misalignment between academic learning and industry requirements
 
-### Prerequisites
+- Limited access to structured mentorship
 
-- Node.js (v18 or higher)
-- npm or yarn package manager
+- Difficulty navigating lengthy learning resources
 
-### Installation
+- Lack of placement-oriented skill guidance
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+- EDU-BRIDGE solves these challenges through an AI-powered career and skill recommendation system.
 
-2. **Set up environment variables:**
-   - Copy `.env.example` to `.env`
-   - Add your Google Gemini API key:
-     ```
-     VITE_API_KEY=your_api_key_here
+**Project Objectives**
 
- - (Optional) Add News API key to enable live news headlines on Trends page:
-    VITE_NEWS_API_KEY=your_newsapi_key_here
-     ```
+- Bridge student skill gaps with industry-aligned learning
 
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
+- Provide AI-driven personalized learning paths
 
-   The application will open at `http://localhost:3000`
+-Improve placement readiness
 
-### Build for Production
+- Align student skills with current MNC hiring trends
 
-```bash
-npm run build
-```
+- Reduce learning fatigue from lengthy and unstructured resources
 
-The production build will be in the `dist` folder.
+**Core Features**
 
-### Preview Production Build
+- Industry-Driven Mentorship
+Personalized guidance from expert tech mentors
 
-```bash
-npm run preview
-```
+- AI-Based Skill Recommendation
+Adaptive content based on student performance and goals
 
-## Project Structure
+- Project-Based Learning
+Hands-on real-world projects aligned with industry needs
 
-```
-GVP/
-├── component/          # React components
-├── services/           # API services (Gemini AI)
-├── src/               # Styles and assets
-├── App.tsx            # Main application component
-├── index.tsx          # Application entry point
-├── index.html         # HTML template
-├── types.ts           # TypeScript type definitions
-└── package.json       # Dependencies and scripts
-```
+- Resume Analysis
+AI evaluation and improvement suggestions
 
-## Technologies Used
+- Mock Interviews
+Interview readiness with AI feedback
 
-- **React 19** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Styling
-- **Google Gemini AI** - AI services
-- **Lucide React** - Icons
-- **Recharts** - Data visualization
-- **React Markdown** - Markdown rendering
+- Time Management Support
+Smart learning schedules and progress tracking
 
-## Environment Variables
+**Existing Gaps in Current Platforms**
 
-- `VITE_API_KEY`: Your Google Gemini API key (required for AI features)
+- GitHub Student Developer Pack – fragmented and scattered offers
 
-## Development
+- Qwiklabs – limited free credits
 
-The project uses Vite for fast development with hot module replacement (HMR). Any changes you make will automatically reflect in the browser.
+- oogle Cloud / Google Skills Boost – credits expire
 
-### Backend - Local Server / Firestore
-- The project includes a lightweight server under `server` for local persistence. By default it uses a local JSON file at `server/data/gvp.json`.
-- You can enable Firestore by setting the `FIREBASE_SERVICE_ACCOUNT_FILE` or `FIREBASE_SERVICE_ACCOUNT_JSON` env var before running the server (see `server/FIREBASE_SETUP.md` for instructions).
+- Azure for Students – some features require institutional eligibility
 
-Example for starting server locally (no Firestore):
-```bash
-cd server
-npm install
-npm run dev
-```
+**How EDU-BRIDGE Solves These Gaps**
 
-Example for starting server with Firestore:
-```bash
-export FIREBASE_SERVICE_ACCOUNT_FILE=/path/to/firestore.json
-cd server
-npm install
-npm run dev
-```
+- Unified access to learning tools & resources
 
-## License
+- AI-curated learning paths instead of random courses
 
-MIT
+- Career-focused approach instead of certificate-only learning
 
+- Continuous skill tracking aligned with real hiring data
+
+**Technology Stack**
+
+AI / ML Algorithms
+
+AI Model Training
+
+Cloud Platforms
+
+Platform Management Systems
+
+Secure Data Storage
+
+Scalable Infrastructure
+
+**Industry Insights & Market Need**
+
+95% of companies integrating LLMs into workflows
+
+56% companies already use AI tools
+
+AI-driven roles grew 22× in the last 5 years
+
+40% productivity boost reported after AI adoption
+
+India will need 1.4 million AI & Cloud engineers by 2027
+
+**Target Users*
+
+Undergraduate & Postgraduate students
+
+Aspiring software engineers
+
+Students targeting top MNC placements
+
+Learners seeking AI & cloud skill development
+
+
+**Future Scope**
+
+- Community Marketplace
+Students publish tools, projects, research, and portfolios
+
+- MNC Recruitment Pipeline Integration
+Direct alignment with company hiring tests and internships
+
+- AI Digital Twin of Every Student
+Personalized AI avatar guiding daily learning
+
+- LinkedIn Redirection & Profile Optimization
+
+**Team – IMPULSE**
+
+
+**Conclusion**
+
+EDU-BRIDGE empowers students to skill up, step in, and stand out by combining AI, mentorship, and real-time industry intelligence.
+Skills are the currency of the future—invest in yourself.
