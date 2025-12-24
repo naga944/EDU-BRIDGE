@@ -96,7 +96,7 @@ AI-driven roles grew 22× in the last 5 years
 
 India will need 1.4 million AI & Cloud engineers by 2027
 
-**Target Users*
+**Target Users**
 
 Undergraduate & Postgraduate students
 
@@ -127,3 +127,4 @@ Personalized AI avatar guiding daily learning
 
 EDU-BRIDGE empowers students to skill up, step in, and stand out by combining AI, mentorship, and real-time industry intelligence.
 Skills are the currency of the future—invest in yourself.
+
